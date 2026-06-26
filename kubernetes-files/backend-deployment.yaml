@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: us-central1-docker.pkg.dev/playground-s-11-0d817a7e/fullstack/backend:442f50dec99d4c5e89090674975ef23d0c691308
+        image: us-central1-docker.pkg.dev/playground-s-11-0d817a7e/fullstack/backend:80099f429c1cee414f321d2a68f7d3a9d0debbee
         ports:
         - containerPort: 80
         env:
