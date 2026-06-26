@@ -1,9 +1,10 @@
 name: Build, Push Images & Update Manifests
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+    workflow_dispatch:
 
 
 env:
